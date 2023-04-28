@@ -5,22 +5,96 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Checkpoint 1</title>
 </head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
 <body>
 
   <!--Navbar-->
-  <header>
-
-  </header>
+  <header class="continer-fluid sticky-top">
+    <div class ="row bg-navBar p-3">
+      <div class="col-12">
+        <h1>||| Lorem Ipsum</h1>
+      </div>
+    </div>
+</header>
   
   <!--Main-->
-  <header>
 
-  </header>
+<!--Form Submission-->
+  <main class="container-fluid">
+    <form class="col-4">
+      </form>
+      
+    <form class="form-submission bg-grey">
+    <div class="form col-3">
+      <input
+        type="text"
+        class="form-control" name="formId1" id="formId1" placeholder="Name">
+      <label for="formId1"></label>
+    </div>
 
-  <!--Bg Image-->
+    <div class="form col-md-3">
+      <input type="text" class="form-control" name="formId1" id="formId1" placeholder="Email">
+      <label for="formId1"></label>
+    </div>
+    <div class="form col-md-3">
+      <input type="text" class="form-control" name="formId1" id="formId1" placeholder="Phone">
+      <label for="formId1"></label>
+    </div>
+
+    <div class="form col-md-1">
+      <input type="text" class="form-control" name="formId1" id="formId1" placeholder="Ext.">
+      <label for="formId1"></label>
+    </div>
+    
+
+    <div class="form col-3">
+      <input type="text" class="form-control" name="formId1" id="formId1" placeholder="Message">
+      <label for="formId1"></label>
+      </div>
+    </form>
+    
+    <!--Bg Image-->
+    <div class="bg-image">
+      <img src="assets/ice_cream.jpg" alt="">
+    </div>
+
+    <div class="row justify-content-md-end justify-content-center align-items-center"></div>
+    <div class="col-md-5 col-10">
+      <div class="text-img-overlay p-5 m-5 text-dark">
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates perferendis dolores laboriosam eos atque voluptatibus quaerat neque cupiditate, eum enim qui reiciendis voluptatem!</h4>
+      </div>
+    </div>
+
+    
+    
+
+    </div>
+
+
+  </main>
 
 </body>
 </html>
