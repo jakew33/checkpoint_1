@@ -1,49 +1,93 @@
-.form-submission{
-  padding: 100px;
-  margin-top: 100px;
-}
-
-.bg-image{
-  flex: auto;
-  background-color: mediumaquamarine;
-}
-
-.form-submission{
-  padding-top: 120px;
-  
-}
-
-.bg-light{
-  background-color: rgb(13, 104, 184);
+body {
+  font-family: 'Castoro Titling';
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*colors*/
-.bg-green{
-  color: mediumaquamarine;
+p {
+  margin-bottom: 0%;
 }
 
-.bg-navBar{
-background-color: mediumaquamarine;
+textarea {
+  resize: none;
 }
 
-.bg-grey{
-background-color: rgb(101, 115, 121);
+
+/* Things */
+.glassCard {
+  background: rgba(29, 29, 29, 0.354);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  height: fit-content;
+}
+
+.textOverlay {
+  padding: auto;
+  margin-top: 50px;
+
+}
+
+
+
+/* Images */
+.hero-img {
+  background-image: url("assets/mountains.jpg");
+  min-height: 60vh;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+}
+
+@media (max-width: 799px) {
+  .hero-img {
+    background-image: url("assets/town.webp");
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+  }
+}
+
+.sectionImage {
+  background-image: url("assets/town.webp");
+  min-height: 60vh;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+@media (max-width: 799px) {
+  .col-md-8.col-4 {
+    display: none;
+  }
+
+  .subForm {
+    margin: 0 auto;
+    max-width: 799px;
+  }
+}
+
+/* Colors */
+
+.bg-darkBlue {
+  background-color: #587b7f;
+}
+
+.bg-lightBlue {
+  background-color: #8fc6d6;
+}
+
+.bg-green {
+  background-color: #ADC3D1;
+}
+
+.text-darkBlue {
+  color: seagreen;
+}
+
+.text-offWhite {
+  color: #ffffff;
 }
