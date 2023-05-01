@@ -24,8 +24,9 @@ textarea {
 }
 
 .textOverlay {
-  padding: auto;
+  padding: 5;
   margin-top: 50px;
+  margin-right: -100px;
 
 }
 
@@ -44,7 +45,7 @@ textarea {
 @media (max-width: 799px) {
   .hero-img {
     background-image: url("assets/town.webp");
-    min-height: 80vh;
+    min-height: 50vh;
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -53,7 +54,7 @@ textarea {
 
 .sectionImage {
   background-image: url("assets/town.webp");
-  min-height: 60vh;
+  min-height: 50vh;
   object-fit: cover;
   object-position: center;
 
@@ -87,6 +88,7 @@ textarea {
 .text-darkBlue {
   color: seagreen;
 }
+
 
 .text-offWhite {
   color: #ffffff;
